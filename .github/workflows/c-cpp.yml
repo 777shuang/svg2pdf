@@ -23,9 +23,10 @@ jobs:
         update: true
         install: >-
           make
-          mingw-w64-x86_64-cairo
           mingw-w64-x86_64-gcc
+          mingw-w64-x86_64-pkg-config
           mingw-w64-x86_64-librsvg
+          mingw-w64-x86_64-cairo
 
     - name: Checkout
       uses: actions/checkout@v3
