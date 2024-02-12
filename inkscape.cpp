@@ -7,7 +7,7 @@
 
 void option_error()
 {
-    std::cout << "オプションが違います。" << std::endl << "inkscape -z --file=ファイル名.svg --export-pdf=ファイル名.pdf";
+    std::cout << "Invalid option" << std::endl << "inkscape -z --file=input.svg --export-pdf=output.pdf";
     std::exit(EXIT_FAILURE);
 }
 
