@@ -37,9 +37,7 @@ jobs:
 
     - name: Build
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: |
-        make init
-        make
+      run: make
       
     - name: Upload
       uses: actions/upload-artifact@v3
